@@ -1,0 +1,38 @@
+.lista-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+ 
+  align-items: center;
+  width: 15rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-icone {
+  display: block;
+  margin-right: 1rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  background: var(--Amarelo);
+  background-size: 1.375rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item_icone-cursor {
+  background-image: url(../../img/icones/mouse.svg);
+}
+
+.item_icone-carrinho {
+  background-image: url(../../img/icones/cart.svg);
+  
+}
+.item_icone-caminhao {
+  background-image: url(../../img/icones/truck.svg);
+}

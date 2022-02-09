@@ -1,0 +1,37 @@
+.cartao-video {
+  margin-bottom: 2rem;
+}
+.cartao-video-video {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 17.5rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.cartao-video-video::before {
+  content: " ";
+
+  position: absolute;
+  left: 50%;
+  top:50%;
+
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 4.875rem;
+  height: 4.875rem;
+  border-radius: 50%;
+  background-color: var(--Branco);
+  background-image: url(../../img/icones/play.svg);
+  background-repeat: no-repeat;
+  background-size: 1.75rem;
+  background-position: center left 55%;
+}
+
+.cartao-video-titulo{
+  color: var(--Preto);
+  font-size: var(--tamanho-destaque);
+  font-weight: var(--peso-destaque);
+  margin-bottom: .75rem;
+}

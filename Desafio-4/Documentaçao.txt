@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Casa Verde</title>
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS's -->
+    <link rel="stylesheet" href="assets/css/base/base.css" />
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css" />
+    <link rel="stylesheet" href="assets/css/componentes/botoes.css" />
+    <link rel="stylesheet" href="assets/css/componentes/inputs.css" />
+    <link rel="stylesheet" href="assets/css/componentes/cartao.css" />
+    <link rel="stylesheet" href="assets/css/componentes/item.css" />
+    <link rel="stylesheet" href="assets/css/componentes/produto.css" />
+    <link rel="stylesheet" href="assets/css/componentes/video.css" />
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css" />
+  </head>
+  <body>
+    <header class="container cabecalho">
+      <img
+        src="assets/img/logo.svg"
+        alt="Logo Casa Verde"
+        class="cabecalho-logo"
+      />
+      <a href="#" aria-label="Carrinho"
+        ><img
+          src="assets/img/icones/carrinho.svg"
+          alt=""
+          class="cabecalho-carrinho"
+      /></a>
+    </header>
+    <main>
+      <article class="cartao">
+        <h2 class="titulo alinhamento--meio">
+          Só vamo
+          <span class="titulo--destaque">minha planta</span>
+        </h2>
+        <ul class="lista-item">
+          <li class="item">
+            <span class="item-icone item_icone-cursor"></span>
+            <p>Escolha Suas Plantas</p>
+          </li>
+
+          <li class="item">
+            <span class="item-icone item_icone-carrinho"></span>
+            <p>guarde o Pedido</p>
+          </li>
+
+          <li class="item">
+            <span class="item-icone item_icone-caminhao"></span>
+            <p>So vamo</p>
+          </li>
+        </ul>
+      </article>
+
+      <article class="produto">
+        <img
+          src="assets/img/produto-01.png"
+          alt="Foto do Produto"
+          class="produto-imagem"
+        />
+        <div class="produto-conteudo">
+          <h3 class="produto-titulo titulo--destaque">Ajuga Reptans</h3>
+          <p class="produto-preco">R$ 20,00</p>
+          <a href="" class="produto-comprar"
+            >Comprar Agora<span class="produto-comprar-icone"></span
+          ></a>
+        </div>
+      </article>
+      <article class="cartao-video">
+        <div class="cartao-video-video">
+          <img src="https://picsum.photos/278/252" alt="Banner do Video" />
+        </div>
+      </article>
+    </main>
+
+    <footer class="rodape container">
+      <img
+        src="assets/img/logo.svg"
+        alt="Logo Casa verde"
+        class="rodape-logo"
+      />
+      <ul class="rodape-social">
+        <li class="rodape-sociel-midia">
+          <a href="#"
+            ><img src="assets/img/icones/facebook.svg" alt="" title="Facebook"
+          /></a>
+        </li>
+        <li class="rodape-sociel-midia">
+          <a href="#"
+            ><img src="assets/img/icones/twitter.svg" alt="" title="Twitter"
+          /></a>
+        </li>
+        <li class="rodape-sociel-midia">
+          <a href="#"
+            ><img
+              src="assets/img/icones/instagram.svg"
+              alt=""
+              title="Instagram"
+          /></a>
+        </li>
+      </ul>
+      <address class="rodape-unidade texto">
+        <span class="rodape-unidade-titulo">Rio de Janeiro</span>
+        Rua Siqueira Campos, 171, 303 <br>
+        Copacabana <br>
+        Telefone: (21) 98876-0099
+      </address>
+      <address class="rodape-unidade texto">
+        <span class="rodape-unidade-titulo">São Paulo</span>
+        Rua Anita Garibaldi, 33, 13 <br>
+        Sé <br>
+        Telefone: (11) 98875-2022
+      </address>
+    </footer>
+  </body>
+</html>
